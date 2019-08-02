@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSharpData.API", "FSharpData.API\FSharpData.API.csproj", "{513583D1-D53A-400D-AE3C-BE44FDCA320B}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpData.Db", "FSharpData.Db\FSharpData.Db.fsproj", "{A9D73C94-27B8-4146-8CE4-E300A26AF8B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{513583D1-D53A-400D-AE3C-BE44FDCA320B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513583D1-D53A-400D-AE3C-BE44FDCA320B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513583D1-D53A-400D-AE3C-BE44FDCA320B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513583D1-D53A-400D-AE3C-BE44FDCA320B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D73C94-27B8-4146-8CE4-E300A26AF8B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D73C94-27B8-4146-8CE4-E300A26AF8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D73C94-27B8-4146-8CE4-E300A26AF8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D73C94-27B8-4146-8CE4-E300A26AF8B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B24445B-3B12-46E3-9623-E72189F915D6}
+	EndGlobalSection
+EndGlobal
