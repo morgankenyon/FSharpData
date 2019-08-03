@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "c53dc3f5-5030-4037-99a0-68a00c079d57",
+		"name": "FSharpData",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetQuestions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateQuestion",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Title\": \"First Question\",\n\t\"Text\": \"This is the body of the first question\",\n\t\n}"
+				},
+				"url": {
+					"raw": "localhost:12320/api/questions",
+					"host": [
+						"localhost"
+					],
+					"port": "12320",
+					"path": [
+						"api",
+						"questions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetQuestion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:12320/api/questions/1",
+					"host": [
+						"localhost"
+					],
+					"port": "12320",
+					"path": [
+						"api",
+						"questions",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateUser",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Email\": \"TestEmail@gmail.com\",\n\t\"Username\": \"TestUsername\"\n}"
+				},
+				"url": {
+					"raw": "localhost:12320/api/users",
+					"host": [
+						"localhost"
+					],
+					"port": "12320",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:12320/api/users",
+					"host": [
+						"localhost"
+					],
+					"port": "12320",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:12320/api/users/1",
+					"host": [
+						"localhost"
+					],
+					"port": "12320",
+					"path": [
+						"api",
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -7,8 +7,8 @@
   <ItemGroup>
     <Compile Include="Entity.fs" />
     <Compile Include="FSharpDataContext.fs" />
+    <Compile Include="UserRepository.fs" />
     <Compile Include="QuestionRepository.fs" />
-    <Compile Include="Library.fs" />
   </ItemGroup>
 
   <ItemGroup>
