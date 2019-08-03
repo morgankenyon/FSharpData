@@ -18,7 +18,7 @@ namespace FSharpData.API.Controllers
         {
             userRepo = userRepository;
         }
-        // GET api/questions
+        // GET api/users
         [Produces("application/json")]
         [HttpGet]
         public async Task<IEnumerable<User>> Get()
@@ -26,18 +26,18 @@ namespace FSharpData.API.Controllers
             return await userRepo.GetUsers();
         }
 
-        // GET api/questions/5
+        // GET api/users/5
         [HttpGet("{id}")]
         public async Task<User> Get(int id)
         {
             return await userRepo.GetUser(id);
         }
 
-        // POST api/questions
+        // POST api/users
         [HttpPost]
-        public async Task<User> Post(User question)
+        public async Task<User> Post(User user)
         {
-            return await userRepo.CreateUser(question);
+            return await userRepo.CreateUser(user);
         }
     }
 }
